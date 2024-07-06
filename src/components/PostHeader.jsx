@@ -1,12 +1,13 @@
 
 export default function PostHeader(){
   return (
-    <div  className="flex items-center gap-2 ml-3">
-    <img className="size-9 rounded-full object-cover object-top" src="../public/pesssoa.avif" alt="" />
-    <a href="" className="underline text-slate-600">Fulano de tal</a>  
+    <div className="flex items-center gap-2">
+    <img src="/public/pesssoa.avif" 
+        className="rounded-full w-10 h-10 object-cover object-top ml-3" />
+    <a href="#" className="underline">Fulano de tal</a>
     <span>-</span>
-    <span>29/06/24</span>  
-    </div>
+    <span>20/10/2024</span>
+</div>
 
   )
 }
